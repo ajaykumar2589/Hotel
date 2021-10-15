@@ -12,6 +12,7 @@ const uniqueList =[...new Set(Menu.map((CurElem)=>{
 const Hotel = () => {
     const [menuData,setMenuData] = useState(Menu);
     const [menuList,setMenuList] = useState(uniqueList);
+    //  setMenuList(uniqueList);
     console.log(menuData);
     const  filterItem=(category)=>{
         if(category==="All"){

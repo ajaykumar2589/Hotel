@@ -1,13 +1,13 @@
 import React from 'react'
-import Hotel from './Components/Basics/Hotel'
-import  UseReducer  from './Components/Hooks/useReducer';
+
+// // import  UseReducer  from './Components/Hooks/useReducer';
+//  import Todo from './Components/TodoList/todo';
+//  import Hotel from './Components/Basics/Hotel'
+import Temp from './Components/Weather/temp'
 
 const App = () => {
   return (
-    
-     <>
-       <UseReducer/>
-     </>
+     < ><Temp /></>
   )
 }
 // const Myname = () => {
